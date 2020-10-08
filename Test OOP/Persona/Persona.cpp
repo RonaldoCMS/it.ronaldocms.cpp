@@ -1,6 +1,14 @@
-#include "persona.h"
+#include "Persona.h"
+#include <iostream>
+#include <string.h>
 
-void Persona::stampa() {
-	std::cout << "Ciao mi chiamo " << nome << " " << cognome << ", e ho " << eta << " anni!\n";
+using namespace std;
+
+Persona::Persona(string nome, string cognome) {
+    this->nome = nome;
+    this->cognome = cognome;
 }
 
+void Persona::hello() {
+    cout << "Ciao sono: " + this->cognome + " " + this->cognome << endl;
+}

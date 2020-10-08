@@ -1,19 +1,19 @@
+#ifndef PERSONA_H_INCLUDED
+#define PERSONA_H_INCLUDED
+
 #include <string.h>
 
-#ifndef H_PERSONA_H_INCLUDED
-#define H_PERSONA_H_INCLUDED
+using namespace std;
 
-class Persona {
-	
-	private:
-		std::string nome = "Fabio";
-		std::string cognome "Danubbio";
-		int eta = 30;
-		
-	public:
-		//Persona(string nome, string cognome, int eta)
-		void stampa();
-	
-};
+    class Persona {
+        
+
+        public:
+            string nome;
+            string cognome;
+            Persona(string nome, string cognome);
+            void hello();
+    };
+
 
 #endif

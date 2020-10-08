@@ -1,13 +1,10 @@
 #include <iostream>
-#include "persona.h"
 
 using namespace std;
 
 int main() {
 
-    Persona Fabio("Fabio", "Ronaldo");
-    
 
+    cout << 4 / 2;
     return 0;
 }
-

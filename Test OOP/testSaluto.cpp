@@ -7,7 +7,7 @@ class Persona {
 	
 	//Attributi
 	private :
-		string nome;
+		string nome = "sasdadsa";
 		string cognome;
 	
 	//metodi
